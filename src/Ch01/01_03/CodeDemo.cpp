@@ -6,9 +6,10 @@
 #include <string>
 
 int main(){
-    std::string str;
-    std::cin >> str;
-    std::cout << str;
+    std::string name;
+    std::cout << "What is your name?";
+    std::cin >> name;
+    std::cout << name << " is a very interesting name!";
 
     std::cout << std::endl << std::endl;
     return (0);
